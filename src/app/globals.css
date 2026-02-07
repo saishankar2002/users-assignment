@@ -24,3 +24,43 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.page {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.item {
+  border: 1px solid #ccc;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+.home-page {
+  background-color: #FF5733;
+  min-height: 100vh;
+}
+
+.details-page {
+  background-color: crimson;
+  min-height: 100vh;
+}
+
+.navbar {
+  padding: 15px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.content {
+  padding: 15px;
+}
+
+.user-item {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+
